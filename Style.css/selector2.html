@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style>
+          /* div p {
+            color: rgb(12, 29, 29);
+            font-size: larger;
+            font-family: cursive;
+          } */
+
+         .box >  p {
+           background-color: bisque;
+          }
+
+          div ~ p {
+            font-weight: bolder;
+          }
+
+          a:hover {
+            color: rgb(226, 43, 43);
+            
+          }
+          a:active {
+            color: rgb(30, 210, 99);
+          }
+           a:link {
+            font-size: larger;
+          } 
+
+          ul {
+            list-style: none;
+            display: flex;
+          }
+
+          ul li {
+            margin: 15px;
+            padding: 10px;
+            border-right: 2px solid black;
+          }
+          ul li::first-letter {
+             color: chocolate;
+          }
+
+          ul li:nth-child(5) {
+                border-right: 0px;
+          }
+
+          .para::first-line {
+            color: brown;
+              }
+
+         .para::after {
+            content: "read more ....";
+            color: rgb(255, 102, 0);
+            font-size: larger;
+
+         }
+         .para::before {
+            content: "Start Reading about paragraph ....";
+            color: rgb(255, 102, 0);
+            font-size: larger;
+
+         }
+    </style>
+</head>
+<body>
+     <!-- CSS Combination  -->
+
+     <div class = "box">
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere aliquam nesciunt placeat ipsa, cupiditate alias quasi corporis odit? Harum magnam tenetur hic mollitia minus officia, ab eos animi dignissimos voluptatum.
+            Possimus deleniti a error, saepe animi assumenda itaque excepturi accusantium veniam nostrum accusamus, pariatur natus quibusdam, molestiae suscipit laboriosam similique odio repudiandae vitae enim dolore. Reiciendis modi eos sequi! Provident?
+            Repudiandae recusandae, ue adipisci, ipsum blanditiis quaerat nemo enim molestiae exercitationem repudiandae magnam deleniti doloribus ex rerum impedit praesentium dolor vero at? Itaque, ipsa!
+        </p>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta repellendus totam iusto debitis mollitia placeat. Non itaque amet quaerat nihil consequuntur repudiandae aliquam repellendus quam nisi, laborum a. Voluptatibus, asperiores.
+            Totam aut perferendis dolores ipsum, deleniti, eius suscipit quod doloribus assumenda fugit labore temporibus veniam reprehenderit commodi magni error iusto quia, omnis unde. Optio assumenda aut iste natus voluptate dolores!
+            Rerum autem provident officia porro ratione ut labore quo, iste est vitae quod. Sed veniam debitis libero dicta provident atque quam, nemo et harum facilis impedit saepe, eos commodi deleniti.</p>
+        </div>
+     </div>
+
+    
+         <P>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos illum dolorem qui aliquid fugiat excepturi minima aliquam cum inventore architecto quas magnam incidunt ut explicabo vitae repellat, molestiae quaerat non!
+        Non porro ex suscipitnemo laboriosam illum. At dolores magnam architecto ea mollitia non eius modi aliquam ratione earum quasi dolore, sit tenetur. Odit illum saepe illo eaque.
+        Voluptatem tempora unde aperiam repellat inventore optio totam iste fugit corporis laudantium asperiores dolores sunt doloremque dolorum ab rem iure velit doloribus necessitatibus et impedit, natus eligendi possimus eveniet? Earum.
+     </P>
+
+     <a href="">Visit main website of ABES</a>
+
+     <ul>
+        <li>Home</li>
+        <li>Service</li>
+        <li>Fast tag</li>
+        <li>Map</li>
+        <li>Gallery</li>
+     </ul>
+
+ <p class="para">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quaerat fuga vero ducimus unde, explicabo commodi, nostrum reiciendis eos totam sapiente sequi. Dolorum odit esse magnam obcaecati, culpa quod non?
+    Dolores vero esse reprehenderit ab sequi enim expedita suscipit error modi laboriosam, non quae ducimus accusantium possimus, quidem, nesciunt consequatur deserunt voluptate necessitatibus mollitia facere. Repudiandae tempora deserunt aperiam!
+ </p>
+
+     
+</body>
+</html>
+
+

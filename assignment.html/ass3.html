@@ -4,6 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 3</title>
+    <style>
+        #math , #time {
+            background-color: orange;
+        }
+        #eng  , #day {
+            background-color: rgb(0, 136, 255);
+        }
+        #phy  , #elec {
+            background-color: rgb(255, 0, 0);
+        }
+        #sport , #d {
+            background-color: rgb(47, 255, 0);
+        }
+        #compnet , #ws {
+            background-color: rgb(95, 91, 83);
+        }
+        #comp, #sem {
+            background-color: rgb(117, 80, 6);
+        }
+        #lab ,#pw {
+            background-color: rgb(179, 0, 255);
+        }
+        
+        
+        
+    </style>
 </head>
 <body>  
    
@@ -12,48 +38,52 @@
     
     <table border="2" >
         <tr>
-            <th>Day/Time</th>
-            <th>9:00 - 10:00</th>
-            <th>10:00 - 11:00</th>
-            <th>11:00 - 12:00</th>
-            <th>12:00 - 1:00</th>
-            <th>1:00 - 2:00</th>
-            <th>2:00 - 3:00</th>
-            <th>3:00 - 4:00</th>
+            <th id="d">Day/Time</th>
+            <th id="time">9:00 - 10:00</th>
+            <th  id="time">10:00 - 11:00</th>
+            <th  id="time">11:00 - 12:00</th>
+            <th  id="time">12:00 - 1:00</th>
+            <th  id="time">1:00 - 2:00</th>
+            <th  id="time">2:00 - 3:00</th>
+            <th  id="time">3:00 - 4:00</th>
         </tr>
 
         <tr>
-            <td>Monday</td>
-            <td rowspan="2">Mathematics</td>
-            <td>English</td>
-            <td rowspan="7">Physics</td>
+            <td id="day">Monday</td>
+            <td rowspan="2" id="math">Mathematics</td>
+            <td id="eng">English</td>
+            <td rowspan="7" id="phy">Physics</td>
             <td rowspan="7">Break</td>
-            <td colspan="2">Computer Lab</td>
-            <td>Sports</td>
+            <td colspan="2" id="comp">Computer Lab</td>
+            <td id="sport">Sports</td>
         </tr>
 
+       
+        
+   
         <tr>
-            <td>Tuesday</td>
-            <td>C Programming</td>
+            <td id="day">Tuesday</td>
+            <td id="comp">C Programming</td>
             <!-- <td>Physics</td> -->
             <!-- <td>Break</td> -->
-            <td colspan="2">Electronics Lab</td>
-            <td>Library</td>
+            <td colspan="2" id="elec">Electronics Lab</td>
+            <td id="lab">Library</td>
         </tr>
 
         <tr>
-            <td rowspan="3">Wednesday</td>
-            <td rowspan="3">Mathematics</td>
-            <td rowspan="3">English</td>
+            <td id="day" rowspan="3">Wednesday</td>
+            <td id="math" rowspan="3">Mathematics</td>
+            <td id="eng" rowspan="3">English</td>
             <!-- <td rowspan="3">Physics</td> -->
             <!-- <td rowspan="3">Break</td> -->
-            <td rowspan="3">Computer Networks</td>
+            <td rowspan="3" id="compnet">Computer Networks</td>
             <td colspan="2" rowspan="3">
                 <table border="2" cellpadding="4">
                     <tr><th colspan="2">Lab Details</th></tr>
                     <tr><td>Batch A</td><td>DBMS Lab</td></tr>
                     <tr><td>Batch B</td><td>OS Lab</td></tr>
                 </table>
+           
             </td>
         </tr>
 
@@ -66,22 +96,22 @@
         </tr>
 
         <tr>
-            <td>Thursday</td>
-            <td colspan="2">Workshop</td>
+            <td id="day">Thursday</td>
+            <td id="ws" rowspan ="2">Workshop</td>
             <!-- <td>Physics</td> -->
             <!-- <td>Break</td> -->
-            <td>Mathematics</td>
-            <td>English</td>
-            <td>Seminar</td>
+            <td id="math">Mathematics</td>
+            <td id="eng">English</td>
+            <td id="sem" colspan="2">Seminar</td>
         </tr>
 
         <tr>
-            <td>Friday</td>
-            <td>Computer Networks</td>
-            <td>English</td>
+            <td id="day">Friday</td>
+            <td id="compnet">Computer Networks</td>
+            <td id="eng">English</td>
              <!-- <td>Physics</td>  -->
             <!-- <td>Break</td> -->
-            <td colspan="3">Project Work</td>
+            <td id="pw" colspan="3">Project Work</td>
         </tr>
     </table>
     
