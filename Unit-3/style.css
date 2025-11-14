@@ -1,0 +1,35 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+       background-size: cover;
+     background-image: url("https://t3.ftcdn.net/jpg/04/88/08/68/360_F_488086891_nY0z5ZQN0nLkta42Ziv6kHehHlBclQyq.jpg");
+ 
+}
+
+p{
+    font-family: serif;
+    font-size: 20px;
+    color: rgb(203, 106, 106);
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px rgb(194, 64, 64);
+    clear: right;
+   
+}
+
+#para {
+    color: rgb(153, 6, 40);
+    display: inline-block ;
+    margin-left: 15px;
+}
+
+img {
+    background-color: rgb(98, 148, 189);
+    float: left;
+    height: 100px;
+    width: 300px;
+}
