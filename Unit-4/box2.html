@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .box {
+            width:1200px;
+            height: 800px;
+            display: flex;
+            border: 2px solid black;
+            flex-direction: column;
+            gap: 10px;
+            text-align: center;
+            margin: auto;
+         }
+         .h , .n ,  .f {
+                height: 130px;
+                background-color: aqua;
+                line-height: 150px;
+                border: 2px solid black;
+         }
+         
+         .con {
+            height: 400px;
+            
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            border: 2px solid black;
+         }
+
+         .c {
+            flex-grow: 1;
+            background-color: antiquewhite ;
+            gap: 10px;
+            border: 2px solid black;
+         }
+
+         .mc {
+            flex-grow: 1; 
+            background-color: blue;
+            gap: 10px;
+            border: 2px solid black;
+         }
+
+        
+
+    </style>
+</head>
+    
+<body>
+    <div class="box">
+        <div class="h">Header</div>
+        <div class="n">Nav bar</div>
+        <div class="con">
+         <div class="c"> content</div>
+         <div class="mc"> main content</div>
+        
+        </div>
+        <div class="f"> Footer</div>
+    </div>
+</body>
+</html>
