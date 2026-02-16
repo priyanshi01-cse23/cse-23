@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUTUBE</title>
+     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+
+     <STYle>
+      *{
+        margin: 0%;
+        padding: 0%;
+        
+      }
+
+       body 
+        {
+          background-color: lightgray;
+          
+        }
+
+        
+      .up {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin: 10px;
+        font-size: 20px;
+        font-weight: bolder;
+        align-items: center;
+}
+      .logo {
+        width: 190px;
+        height: 70px;
+      }
+
+      input {
+        width: 700px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: white;
+        margin-left: 200px;
+        border: 1px solid lightgray;
+        padding-left: 10px;
+      }
+
+      input:hover {
+        color: rgb(24, 2, 2);
+        
+      }
+
+      #search-icon , #mp , #nf {
+        font-size: 25px;
+        margin: 10px;
+        text-shadow: darkgray 1px 1px 2px;
+      }
+
+      #search-icon:hover , #mp:hover , #nf:hover {
+          border: lightgrey solid 1px ;
+          border-radius: 50%;
+          padding: 5px;
+          background-color: rgb(116, 114, 114);
+      }
+      
+
+      h4 {
+        background-color: BLACK;
+        color: RED;
+        border-radius:90%;
+        font-size: larger;
+        padding: 10px;
+      }
+
+
+      
+      h3{
+         background-color: BLACK;
+        color: RED;
+        border-radius:20%;
+        font-size: larger;
+        padding: 10px;
+      }
+
+      .left {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 30px;
+        margin-left: 15px;
+        font-size: 30px;
+      } 
+
+      ul {
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        justify-content: space-around;
+         margin-left: 100px;
+        list-style: none;
+        
+      }
+
+
+      
+     </STYle>
+</head>
+<body> 
+        <div class="clone">
+      <HEader class="header">
+        <div class="up">
+          <i class="fa-solid fa-bars"></i>
+           
+          <h3>YOUTUBE</h3>
+          <input type="text" placeholder="Search">
+           <i  id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+            <i id="mp" class="fa-solid fa-microphone"></i>
+            <i id="nf" class="fa-regular fa-bell"></i>
+            <h4>Login</h4>
+           </div>
+      <div class="left">
+         <div class="div">
+           <i class="fa-solid fa-house"></i>
+             <h5>Home</h5>
+           
+         </div>
+         <div class="div">
+          <i class="fa-brands fa-youtube"></i>
+           <h5>Shorts</h5>
+         </div>
+         <div class="div">
+            <i class="fa-solid fa-basket-shopping"></i>
+           <h5>Subscriptions</h5>
+         </div>
+         <div class="div">
+          <i class="fa-regular fa-circle-user"></i>
+           <h5>You</h5>
+         </div>
+
+         
+      </HEader> 
+      </div>
+</body>
+</html>
